@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image App</title>
+  <style>
+    .image-container {
+      position: relative;
+      display: inline-block;
+      width: 150px;
+      height: 150px;
+      margin: 10px;
+      background-color: #f0f0f0; /* Arka plan rengi */
+    }
+    .image {
+      width: 100%;
+      height: 100%;
+      transition: opacity 0.5s ease;
+    }
+    .image-name {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background-color: rgba(0, 0, 0, 0.5);
+      color: white;
+      text-align: center;
+      padding: 5px;
+      opacity: 1; /* İlk açılışta görünür */
+      transition: opacity 0.5s ease;
+      cursor: pointer; /* Tıklanabilir olduğunu göstermek için */
+    }
+    .faded {
+      opacity: 0; /* Tamamen şeffaf */
+    }
+  </style>
+</head>
+<body>
+  <div class="image-container">
+    <img src="C:\Users\ozozturk\myApp\www\img\apple.jpg" alt="Apple" class="image" data-name="Apple">
+    <div class="image-name">Apple</div>
+  </div>
+  <div class="image-container">
+    <img src="C:\Users\ozozturk\myApp\www\img\table.jpg" alt="Table" class="image" data-name="Table">
+    <div class="image-name">Table</div>
+  </div>
+<div class="image-container">
+    <img src="C:\Users\ozozturk\myApp\www\img\car.jpg" alt="Table" class="image" data-name="car">
+    <div class="image-name">car</div>
+  </div>
+<div class="image-container">
+    <img src="C:\Users\ozozturk\myApp\www\img\pen.jpg" alt="Table" class="image" data-name="pen">
+    <div class="image-name">pen</div>
+  </div>
+<div class="image-container">
+    <img src="C:\Users\ozozturk\myApp\www\img\image.jpg" alt="Table" class="image" data-name="image">
+    <div class="image-name">image</div>
+  </div>
+<div class="image-container">
+    <img src="C:\Users\ozozturk\myApp\www\img\computer.jpg" alt="Table" class="image" data-name="computer">
+    <div class="image-name">computer</div>
+  </div>
+<div class="image-container">
+    <img src="C:\Users\ozozturk\myApp\www\img\phone.jpg" alt="Table" class="image" data-name="phone">
+    <div class="image-name">phone</div>
+  </div>
+<div class="image-container">
+    <img src="C:\Users\ozozturk\myApp\www\img\chair.jpg" alt="Table" class="image" data-name="chair">
+    <div class="image-name">chair</div>
+  </div>
+<div class="image-container">
+    <img src="C:\Users\ozozturk\myApp\www\img\bicycle.jpg" alt="Table" class="image" data-name="bicycle">
+    <div class="image-name">bicycle</div>
+  </div>
+<div class="image-container">
+    <img src="C:\Users\ozozturk\myApp\www\img\ball.jpg" alt="Table" class="image" data-name="ball">
+    <div class="image-name">ball</div>
+  </div>
+<div class="image-container">
+    <img src="C:\Users\ozozturk\myApp\www\img\cat.jpg" alt="Table" class="image" data-name="cat">
+    <div class="image-name">cat</div>
+  </div>
+<div class="image-container">
+    <img src="C:\Users\ozozturk\myApp\www\img\dog.jpg" alt="Table" class="image" data-name="dog">
+    <div class="image-name">dog</div>
+  </div>
+<div class="image-container">
+    <img src="C:\Users\ozozturk\myApp\www\img\guitar.jpg" alt="Table" class="image" data-name="guitar">
+    <div class="image-name">guitar</div>
+  </div>
+<div class="image-container">
+    <img src="C:\Users\ozozturk\myApp\www\img\lamb.jpg" alt="Table" class="image" data-name="lamb">
+    <div class="image-name">lamb</div>
+  </div>
+<div class="image-container">
+    <img src="C:\Users\ozozturk\myApp\www\img\watch.jpg" alt="Table" class="image" data-name="watch">
+    <div class="image-name">watch</div>
+  </div>
+<div class="image-container">
+    <img src="C:\Users\ozozturk\myApp\www\img\bardak.jpg" alt="Table" class="image" data-name="bardak">
+    <div class="image-name">cup</div>
+  </div>
+<div class="image-container">
+    <img src="C:\Users\ozozturk\myApp\www\img\bag.jpg" alt="Table" class="image" data-name="bag">
+    <div class="image-name">bag</div>
+  </div>
+<div class="image-container">
+    <img src="C:\Users\ozozturk\myApp\www\img\key.jpg" alt="Table" class="image" data-name="key">
+    <div class="image-name">key</div>
+  </div>
+<div class="image-container">
+    <img src="C:\Users\ozozturk\myApp\www\img\shoes.jpg" alt="Table" class="image" data-name="shoes">
+    <div class="image-name">shoes</div>
+  </div>
+<div class="image-container">
+    <img src="C:\Users\ozozturk\myApp\www\img\glasses.jpg" alt="Table" class="image" data-name="glasses">
+    <div class="image-name">glasses</div>
+  </div>
+<div class="image-container">
+    <img src="C:\Users\ozozturk\myApp\www\img\tshirt.jpg" alt="Table" class="image" data-name="tshirt">
+    <div class="image-name">tshirt</div>
+  </div>
+<div class="image-container">
+    <img src="C:\Users\ozozturk\myApp\www\img\hat.jpg" alt="Table" class="image" data-name="hat">
+    <div class="image-name">hat</div>
+  </div>
+<div class="image-container">
+    <img src="C:\Users\ozozturk\myApp\www\img\book.jpg" alt="Table" class="image" data-name="book">
+    <div class="image-name">book</div>
+  </div>
+
+  <!-- Diğer resimleri benzer şekilde ekleyin -->
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      const images = document.querySelectorAll(".image");
+
+      images.forEach(image => {
+        let clickCount = 0;
+        const imageName = image.nextElementSibling;
+
+        image.addEventListener("click", () => {
+          clickCount++;
+          image.style.opacity = 1 - (clickCount * 0.2);
+
+          if (clickCount >= 5) {
+            image.classList.add("faded");
+            imageName.style.opacity = 1; // İsmi görünür yap
+          }
+        });
+
+        imageName.addEventListener("click", () => {
+          clickCount = 0;
+          image.classList.remove("faded");
+          image.style.opacity = 1; // Resmi tam görünür yap
+        });
+      });
+    });
+  </script>
+</body>
+</html>
